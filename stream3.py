@@ -63,7 +63,7 @@ def accueil():
         st.image("https://raw.githubusercontent.com/AmadeusGithub/Projet-2/main/projet.png", 
                  use_container_width=True)
         st.write("Accès au tableau de pilotage dynamique :")
-        st.write("https://app.powerbi.com/groups/me/reports/10c6bc70-f01e-431d-b4bd-af24e7fed0e0/8d92dbb7a4b312b2d6b9?experience=power-bi")
+        st.write("https://app.powerbi.com/groups/me/reports/7e169264-7bf9-4d8e-98b7-eca5c8b8e914/87b83155a6dddc544318?experience=power-bi")
     
     elif selection == "Note Book":
         st.header("Les Note Book de nos 2 modèles ")
