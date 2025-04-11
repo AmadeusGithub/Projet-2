@@ -62,7 +62,9 @@ def accueil():
         st.header("Indicateurs")
         st.image("https://raw.githubusercontent.com/AmadeusGithub/Projet-2/main/projet.png", 
                  use_container_width=True)
-
+        st.write("Accès au tableau de pilotage dynamique :")
+        st.write("https://app.powerbi.com/groups/me/reports/10c6bc70-f01e-431d-b4bd-af24e7fed0e0/8d92dbb7a4b312b2d6b9?experience=power-bi")
+    
     elif selection == "Note Book":
         st.header("Les Note Book de nos 2 modèles ")
         st.write("Le modèle 1 : https://github.com/AmadeusGithub/Projet-2/blob/7213d8ead6d552951804076c42257cb8ef91b689/model1_notebook.ipynb")  # Remplace par une URL valide si disponible
